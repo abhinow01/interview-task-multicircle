@@ -12,7 +12,7 @@ const NewPage = () => {
             className="min-h-[100vh] h-full w-full bg-gray-400 relative" 
             onClick={(event) => handleAddCircle(event.clientX, event.clientY)}
         >
-            hello 
+           
             {circles.map((circle, index) => (
                 <div 
                     key={index} 
